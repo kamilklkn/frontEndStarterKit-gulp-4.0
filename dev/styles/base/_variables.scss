@@ -1,0 +1,73 @@
+// Variables go here
+.tk-futura-pt {
+    font-family: "futura-pt", sans-serif;
+}
+
+.tk-canada-type-gibson {
+    font-family: "canada-type-gibson", sans-serif;
+}
+
+.tk-futura-pt-bold {
+    font-family: "futura-pt-bold", sans-serif;
+}
+
+$primary-font: canada-type-gibson,
+sans-serif;
+//
+$title-PT-heavy-font: "futura-pt",
+sans-serif;
+$titleFuturaPtBold : "futura-pt-bold",
+sans-serif;
+$textHighlight : 'Yeseva One',
+cursive;
+
+/*------------------------------------
+  Brand Color
+------------------------------------*/
+
+$darkColor : #373A36;
+$blueColor : #359ED8;
+$yellowColor : #F9B518;
+$greenColor : #81B941;
+$orangeColor : #ED5627;
+$darkOrangeColor: #B54E4E;
+$blackColor : #000000;
+$whiteColor : #FFFFFF;
+$greyColor : #A1A2A2;
+$greyColorV1 : #818691;
+$greyColorV2 : #ebecf0;
+$colorKapicino : #C3A572;
+$colorNone : #fff0; //Parametrik derğerler için, renk kullanılmadığı zamanlarda kullanılması için.
+$linkHoverColor : $orangeColor;
+$card-color-yellow:#F9B518;
+$card-color-green:#53b553;
+$card-color-light-blue:#1a8cb1;
+$card-color-light-orange:#e9822f;
+$card-color-light-grey:#f4f1f1;
+
+/*------------------------------------
+  Card Text Color
+------------------------------------*/
+
+$CardText__Purple:#a2ffda;
+
+/*------------------------------------
+  Cover Bg Color
+------------------------------------*/
+
+//$homeCoverBg:     #5adeeb;
+$homeCoverBg : #00528A;
+$aboutUsCoverBg : #007143;
+
+/*------------------------------------
+  Cart Bg Icon
+------------------------------------*/
+
+$cardIcon-margin_left : 972px;
+$cardIcon-margin_top : 156px;
+
+/*------------------------------------
+  We define Paths
+------------------------------------*/
+
+$imgPatch: "../images/page-img/cover/";

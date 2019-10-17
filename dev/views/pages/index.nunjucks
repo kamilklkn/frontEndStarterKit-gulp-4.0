@@ -1,0 +1,29 @@
+{% extends "./templates/home-layout.nunjucks" %}
+
+{% block title %}Anasayfa{% endblock %}
+{% block content %}
+
+
+<main class="homePage" role="main">
+    <!-- cover -->
+    <section class="p-0 sh-skroller bg-fullscreen">
+        <div class="swiper-container swiper-container-half text-white">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide vh-100">
+                    <div class="image image-overlay vh-100"></div>
+                    <div class="caption">
+                        <div class="container">
+                            <div class="row justify-content-center vh-100" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="col-md-12 align-self-center text-center ml-1" >
+                                    <h1 itemprop="title" class="display-2 main-header heading-line-1" >Merhaba!</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+{% endblock %}

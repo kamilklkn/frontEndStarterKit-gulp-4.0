@@ -1,0 +1,105 @@
+@mixin hover {
+    -webkit-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+@mixin hoverUp {
+    -webkit-transform: translateY(-1px);
+    -ms-transform: translateY(-1px);
+    transform: translateY(-1px);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin heightCenter {
+    display: flex;
+    align-items: center;
+}
+
+
+/*------------------------------------
+  H2 title center
+------------------------------------*/
+
+@mixin textCenter {
+    .text {
+        &-center {
+            @include media-breakpoint-up(xl) {
+                margin-top: 32rem;
+            }
+            @include media-breakpoint-up(lg) {
+                margin-top: 0rem;
+            }
+            @include media-breakpoint-down(md) {
+                margin-top: 0rem;
+            }
+            align-self: center !important;
+        }
+    }
+}
+
+
+/*------------------------------------
+  Brand Stard Date
+------------------------------------*/
+
+@mixin brandStardDate($textColor) {
+    label,
+    time {
+        color: $textColor;
+        font-family: $primary-font;
+    }
+}
+
+
+/*------------------------------------
+  Cover img height
+------------------------------------*/
+
+@mixin coverContainer {
+    .caption {
+        position: relative;
+        z-index: 50;
+        height: 100%;
+        .container {
+            min-height: 100vh;
+        }
+    }
+}
+
+
+/*------------------------------------
+  Section bg
+------------------------------------*/
+
+@mixin sectionBg($color) {
+    .bg-light {
+        background-color: $color !important;
+        position: relative;
+        padding: 6.25rem 0;
+        overflow: hidden;
+        display: block;
+        margin: 32px auto;
+        left: 0;
+        right: 0;
+        float: none;
+        max-width: 1202px;
+    }
+}
+
+@mixin sectionText($colorTitle, $colorText) {
+    .section {
+        &-header {
+            color: $colorTitle;
+        }
+        &-text {
+            color: $colorText;
+        }
+    }
+}
